@@ -1,0 +1,43 @@
+body {
+    background-color: #e0f7fa;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    color:#ffab40;
+}
+
+h1:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+    font-size: 50px;
+    text-shadow: 5px 5px 8px black;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+.table {
+    background-color: white;
+}
+.table thead th {
+    background-color: #ffab40;
+    color: white;
+}
+.table tbody td {
+    background-color: #ffe0b2;
+    color: #000;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+

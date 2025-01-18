@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Probabilidades</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Calculadora de Probabilidades</h1>
+        <form id="dataForm">
+            <div class="mb-3">
+                <label for="dataInput" class="form-label">Ingresa los datos separados por comas:</label>
+                <input type="text" class="form-control" id="dataInput" placeholder="Ejemplo: 13,14,15,16,18">
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+        <div class="table-container">
+            <table class="table table-bordered mt-4" id="resultTable">
+                <thead>
+                    <tr>
+                        <th>xi</th>
+                        <th>fi</th>
+                        <th>Fi</th>
+                        <th>Fi/ΣFi</th>
+                        <th>xi * fi</th>
+                        <th>|xi - x̄|</th>
+                        <th>|xi - x̄| * fi</th>
+                        <th>xi² * fi</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
